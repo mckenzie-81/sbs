@@ -111,7 +111,7 @@ const Booking = () => {
       console.error('Booking submission error:', error);
       toast({
         title: "Booking Failed",
-        description: "Please try again or call us directly at (555) 123-4567",
+        description: "Please try again or call us directly at 0507678878",
         variant: "destructive"
       });
     } finally {
@@ -158,7 +158,7 @@ const Booking = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     className="premium-input"
-                    placeholder="John Smith"
+                    placeholder="Maame Esi"
                     required
                   />
                 </div>
@@ -174,7 +174,7 @@ const Booking = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="premium-input"
-                    placeholder="(555) 123-4567"
+                    placeholder="(233) 543-4567"
                     required
                   />
                 </div>
@@ -297,10 +297,10 @@ const Booking = () => {
                 Need immediate assistance?
               </p>
               <a 
-                href="tel:(555)123-4567" 
+                href="tel:0507678878" 
                 className="text-barbershop-black font-medium hover:text-barbershop-gray-700 transition-colors"
               >
-                Call us at (555) 123-4567
+                Call us on 0507678878
               </a>
             </div>
           </div>
